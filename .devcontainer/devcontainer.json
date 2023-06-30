@@ -3,6 +3,9 @@
         "dockerfile": "./Dockerfile",
         "context": "."
     },
-    "features": {},
-    "remoteUser": "vscode"
+    "hostRequirements": {
+        "cpus": 2,
+        "memory": "4gb",
+        "storage": "32gb"
+    }
 }
