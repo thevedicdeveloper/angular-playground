@@ -4,6 +4,7 @@ import { Component } from '@angular/core';
   selector: 'ngrx-root',
   template: `
   <ngrx-introduction-to-rxjs></ngrx-introduction-to-rxjs>
+  <ngrx-observables></ngrx-observables>
   `,
   styles: []
 })

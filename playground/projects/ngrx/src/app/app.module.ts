@@ -6,14 +6,14 @@ import { AppComponent } from './app.component';
 import { StoreModule } from '@ngrx/store';
 import { RxjsInPracticeModule } from './rxjs-in-practice/rxjs-in-practice.module';
 import { ObservablesModule } from './observables/observables.module';
-import { ObservablesComponent } from './observables/observables.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    ObservablesComponent
   ],
   imports: [
+    ObservablesModule,
     RxjsInPracticeModule,
     BrowserModule,
     AppRoutingModule,

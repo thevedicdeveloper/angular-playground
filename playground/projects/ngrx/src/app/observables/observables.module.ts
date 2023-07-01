@@ -11,8 +11,6 @@ import { ObservablesComponent } from './observables.component';
   imports: [
     CommonModule
   ],
-  exports:[
-    ObservablesComponent
-  ]
+  exports: [ObservablesComponent]
 })
 export class ObservablesModule { }
