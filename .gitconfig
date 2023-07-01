@@ -9,105 +9,104 @@
     email = opensource@vedicdeveloper.com
 
 ; Core settings
-[core]
+;[core]
     ; The text editor to use for commit messages and other Git operations
-    editor = code --wait
+;    editor = code --wait
 
     ; Convert line endings to LF on checkout, and leave them as-is on commit
-    autocrlf = input
+;    autocrlf = input
 
 ; Alias settings
-[alias]
+;[alias]
     ; Shortcuts for common Git commands
-    co = checkout
-    ci = commit
-    st = status
-    br = branch
+;    co = checkout
+;    ci = commit
+;    st = status
+;    br = branch
 
     ; A more detailed log output with a graph of commits
-    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+;    hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 
 ; Diff settings
-[diff]
+;[diff]
     ; The diff tool to use for viewing changes between files
-    tool = meld
+;    tool = meld
 
 ; Merge settings
-[merge]
+;[merge]
     ; The merge tool to use for resolving conflicts between branches
-    tool = meld
+;    tool = meld
 
 ; Push settings
-[push]
+;[push]
     ; Use the simple push strategy by default
-    default = simple
+;    default = simple
 
 ; Other settings
-[color]
+;[color]
     ; Enable colored output in the terminal
-    ui = true
+;    ui = true
 
-[help]
+;[help]
     ; Use the web browser to display help pages instead of the terminal pager
-    browser = true
+;    browser = true
 
-[http]
+;[http]
     ; Use a proxy server for HTTP connections
-    proxy = http://proxy.example.com:8080
+;    proxy = http://proxy.example.com:8080
 
-[https]
+;[https]
     ; Use a proxy server for HTTPS connections
-    proxy = http://proxy.example.com:8080
+;    proxy = http://proxy.example.com:8080
 
-[credential]
+;[credential]
     ; Use the Git credential helper to cache credentials for HTTPS connections
-    helper = cache --timeout=3600
+;    helper = cache --timeout=3600
 
-[commit]
+;[commit]
     ; Sign commits using GPG by default (requires GPG setup)
-    gpgsign = true
+;    gpgsign = true
 
-[fetch]
+;[fetch]
     ; Prune remote branches that no longer exist on the server during fetches
-    prune = true
+;    prune = true
 
-[pull]
+;[pull]
     ; Rebase local changes on top of incoming changes during pulls instead of merging them (requires Git 2.9 or later)
-    rebase = true
+;    rebase = true
 
-[rerere]
+;[rerere]
     ; Enable the rerere feature to automatically resolve conflicts based on previous resolutions (requires Git 1.7.2 or later)
-    enabled = true
+;    enabled = true
 
-[submodule]
+;[submodule]
     ; Recursively update submodules when pulling changes from remote repositories (requires Git 1.8.2 or later)
-    recurse-submodules = true
+;    recurse-submodules = true
 
-[credential "https://example.com"]
+;[credential "https://example.com"]
 	; Use a specific username for HTTPS connections to example.com
-	username = your-username-here
+;	username = your-username-here
 	
 	; Use a specific password for HTTPS connections to example.com (not recommended)
-	password = your-password-here
+;	password = your-password-here
 	
 	; Use a specific credential helper for HTTPS connections to example.com (e.g. wincred on Windows)
-	helper = wincred
+;	helper = wincred
 	
 	; Use a specific SSL certificate file for HTTPS connections to example.com (e.g. if behind a corporate firewall)
-	sslCert = /path/to/certificate.pem
+;	sslCert = /path/to/certificate.pem
 	
 	; Use a specific SSL key file for HTTPS connections to example.com (e.g. if behind a corporate firewall)
-	sslKey = /path/to/key.pem
+;	sslKey = /path/to/key.pem
 	
 	; Use a specific SSL CA certificate file for HTTPS connections to example.com (e.g. if behind a corporate firewall)
-	sslCAInfo = /path/to/ca-certificate.pem
+;	sslCAInfo = /path/to/ca-certificate.pem
 	
 	; Verify the SSL certificate presented by example.com during HTTPS connections (default is true)
-	sslVerify = true
+;	sslVerify = true
 	
 	; Allow insecure SSL certificates presented by example.com during HTTPS connections (not recommended)
-	sslVerify = false
+;	sslVerify = false
 	
 	; Allow insecure SSL hostnames presented by example.com during HTTPS connections (not recommended)
-	insecureHostname = true
-	
+;	insecureHostname = true
