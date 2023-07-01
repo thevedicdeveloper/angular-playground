@@ -4,14 +4,14 @@
 [user]
     ; Your name
     name = thevedicdeveloper
-    
+
     ; Your email address
     email = opensource@vedicdeveloper.com
 
 ; Core settings
 [core]
     ; The text editor to use for commit messages and other Git operations
-    editor = nano
+    editor = code --wait
 
     ; Convert line endings to LF on checkout, and leave them as-is on commit
     autocrlf = input
