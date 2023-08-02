@@ -8,5 +8,12 @@
         "memory": "4gb",
         "storage": "32gb"
     },
-    "workspaceFolder": "/workspaces"
+    "workspaceFolder": "/workspaces",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.cwd": "/workspaces/angular-playground"
+            }
+        }
+    }
 }
