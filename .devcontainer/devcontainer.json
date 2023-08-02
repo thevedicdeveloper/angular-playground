@@ -15,5 +15,6 @@
                 "terminal.integrated.cwd": "/workspaces/angular-playground"
             }
         }
-    }
+    },
+    "postStartCommand": "echo 'localWorkspaceFolder: ${localWorkspaceFolder}' && echo 'containerWorkspaceFolder: ${containerWorkspaceFolder}' && echo 'localWorkspaceFolderBasename: ${localWorkspaceFolderBasename}' && echo 'containerWorkspaceFolderBasename: ${containerWorkspaceFolderBasename}'"
 }
