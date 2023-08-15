@@ -10,7 +10,7 @@
     },
     "workspaceFolder": "/workspaces",
     "features": {
-        
+        "./features/git": {}
     },
     "customizations": {
         "vscode": {
