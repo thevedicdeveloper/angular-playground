@@ -9,6 +9,9 @@
         "storage": "32gb"
     },
     "workspaceFolder": "/workspaces",
+    "features": {
+        
+    },
     "customizations": {
         "vscode": {
             "settings": {
